@@ -1,0 +1,95 @@
+body{
+    
+    background-color: skyblue;
+}
+
+
+body h1{
+    color: green;
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.main-div{
+    margin: auto;
+    width: 70%;
+    height: 610px;
+    border-radius: 25px ;
+    background-color: wheat;
+
+}
+.main-div h2{
+    padding-top: 30px;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.form-row{
+    position: static;
+    display: block;
+    margin: 20px;
+}
+.main-div .form-row .label{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    height: 20px;
+    vertical-align: top;  
+}
+.main-div .form-row .field{
+    border-radius: 5px;
+    display: inline-block;
+    width: 35%;
+    margin-left: 8px;
+    vertical-align: middle;
+    
+}
+
+input[type="text"]{
+    text-align: left;
+    width: 100%;
+    height: 30px;
+}
+
+#email{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+input[type="email"]{
+    width: 100%;
+    height: 30px;
+}
+
+#number{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 30px;
+}
+
+#dropdown{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 30px;
+}
+
+
+.form-row .field #input-fields{
+    width: 300px;
+    height: 100px;
+    text-align: top !important; 
+
+}
+
+.form-row .submit-button{
+    margin: 20px auto;
+    display: block;
+    background-color: green;
+    height: 30px;
+    width: 70px;
+}
+
