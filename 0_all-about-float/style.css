@@ -41,7 +41,6 @@
 .navbar{
     overflow: hidden;
     background-color: #3b5998;
-    /* line-height: 5vh; */
     padding: 10px;
     
 }
@@ -51,7 +50,12 @@
     text-decoration: none;
     color: #ffffff;
     padding: 5px 5px;
-    font-size: 16px;
+    font-size: 18px;
+}
+.navbar a:nth-last-child(1){
+    color:red;
+    float: right;
+    font-size: x-large;
 }
 
 .subnav{
@@ -65,10 +69,8 @@
     background-color: inherit;
     color: #ffffff;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px 5px;
-    /* margin: 5px; */
-    /* height: 14%; */
 }
 
 .navbar a:hover, .subnav:hover .subnav-btn {
@@ -85,7 +87,8 @@
   }
   
   .subnav-content a {
-    float: none;
+    /* float: left; content will be spread horizontally*/
+    float:none; /*vertical subnav-content */
     display: block;
     color: black;
     padding: 12px 16px;
@@ -106,23 +109,9 @@
 
 /* my-projects */
 .my-projects{
-    /* float: left; */
     border: 2px solid blue;
     overflow: hidden;
     padding: 5px;
     margin: 5px 5px;
-}
-.project-1, .project-2, .project-3{
-    float: left;
-    border: 2px solid red;
-    overflow: hidden;
-    margin: 5px;
-    padding: 0px;
-    /* box-sizing: border-box; */
-}
-.project .box h2{
-    height: 12%;
-    text-align: center;
-    text-align: justify;
-}
+}   
 
