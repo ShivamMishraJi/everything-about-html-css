@@ -34,6 +34,7 @@
     margin-right: 0;
 }
 .box-3 h3 a{
+    float: right;
     text-decoration: none !important;
     color: #ffffff;
 } 
@@ -52,16 +53,17 @@
     padding: 5px 5px;
     font-size: 18px;
 }
-.navbar a:nth-last-child(1){
-    color:red;
+#hire-me{
     float: right;
+    color:red;
     font-size: x-large;
 }
+/* .subnav #subnav-value-2{
+    color: inherit;
+} */
 
 .subnav{
     float: left;
-    overflow: hidden;
-    
 }
 .subnav .subnav-btn{
     outline: none;
@@ -74,34 +76,49 @@
 }
 
 .navbar a:hover, .subnav:hover .subnav-btn {
-    background-color: red;
+    background-color: #8b9dc3;
+    color: white;
   }
 
   .subnav-content {
-    display: none;
+    display: none; 
+    /*display:none removes it from DOM,
+    does not render the element on the 	document
+    and thus not allocating it any space
+    */
+
+    /* visibility: hidden; */
+    /* Visibility − hidden does renders the element on the 	document 
+    and even the space is allocated 
+    but it is not made visible to the user. */
     position: absolute;
-    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    /* z-index: 1; */
+    background-color: #3b5998;
+    color:white;
   }
   
   .subnav-content a {
-    /* float: left; content will be spread horizontally*/
-    float:none; /*vertical subnav-content */
-    display: block;
-    color: black;
+    /* float: left; */
+    /*content will be spread horizontally*/
+    
+    float:none; 
+    /*vertical subnav-content */
+
     padding: 12px 16px;
     text-decoration: none;
     text-align: left;
   }
   
   .subnav-content a:hover {
-    background-color: #ddd;
+    background-color:#8b9dc3;
   }
   
   .subnav:hover .subnav-content {
     display: block;
+    /* visibility: visible; */
+    /* refer .subnav-content */
   }
 
 
