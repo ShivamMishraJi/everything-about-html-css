@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.image-1{
+    background-image:url('https://source.unsplash.com/1600x900/?corporate,building');
+    min-height: 100%;
+    position: relative;
+    opacity: 0.60;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.text{
+    border: 2px solid red;
+    background-color: black;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.section{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background-color: lightgray;
+}

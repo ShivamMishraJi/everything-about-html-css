@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+
+</head>
+
+<body>
+  <script>
+ alert("Good Vibes Form ")
+  </script>
+  <div class="container-fluid">
+
+    <div class="row bg-info justify-content-center" style=" font-weight: bold;"><br>
+      Good Vibes Form
+    </div>
+    
+   
+
+    <div class="row bg-info justify-content-center text-center"><br>
+      <div class="col-10" style="background-color:gray; font-size: 20px;">
+     
+      
+        <div class="row justify-content-center" style="height: 70px;">
+          <div class="col-9 "><h style=" font-size: 20px;">Tell us something positive that happened to you today.</h></div>
+          
+        </div>
+
+        <div class="row justify-content-center" style="height: 70px;">
+          <div class="col-4   text-end"><label>First Name</label></div>
+          <div class="col-5  "><input type="text" placeholder="Enter Your Name..........."></div>
+        </div>
+
+       
+
+            <div class="row justify-content-center" style="height: 70px;">
+              <div class="col-4 text-end"><label>Email id</label></div>
+              <div class="col-5 "><input type="text" placeholder="Enter Your Email Id..........."></div>
+            </div>
+
+            
+                <div class="row justify-content-center" style="height: 70px;">
+                  <div class="col-4 text-end"><label>On a Scale of 1-10, how good was it?</label></div>
+                  <div class="col-5 "><input type="text" placeholder="Enter a number between1 and 10..........."></div>
+                </div>
+
+              
+
+                  <div class="row justify-content-center" style="height: 100px;">
+                    <div class="form-rows">
+                    <div class="col-4 text-end">
+                      <div class="labels">
+                      <label for="dropdown" id="dropdown-label">Where did it happen?</label></div>
+                    </div>
+                      
+                    </div>
+                    <div class="col-5 r" >
+                      <div class="fields text-cente">
+                        <select name="Location of positive event" id="dropdown" class="dropdown">
+                          <option value="home">At home</option>
+                          <option value="commute">On my commute</option>
+                          <option value="work">At work</option>
+                          <option value="outside">On the street</option>
+                          <option value="other">Other</option>
+                        </select>
+                      </div>
+                    </div>
+                    </div>
+                    
+                   
+
+                    <div class="row justify-content-center" style="height: 150px;">
+                      <div class="col-4 text-end"><div class="labels">
+                        <label for="time-of-day">At what time of day did it happen?</label>
+                      </div></div>
+                      <div class="col-5 "> <ul id="time-of-day" style="list-style: none;">
+                        <li class="radio">
+                          <label>
+                            Morning
+                            <input name="time-radio" type="radio" value="1" class="user-selection">
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            Afternoon
+                            <input name="time-radio" type="radio" value="2" class="user-selection">
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            Evening
+                            <input name="time-radio" type="radio" value="3" class="user-selection">
+                          </label>
+                        </li>
+                      </ul></div>
+                    </div>
+                    <div class="row justify-content-center" style="height: 180px;">
+                      <div class="col-4 text-end"><label for="feelings">
+                        What emotions did you experience?
+                        <br>
+                        (Select all that apply)
+                      </label>
+                      </div>
+                      <div class="col-5 "><ul id="feelings" style="list-style: none;">
+                        <li class="radio">
+                          <label>
+                            <input name="feeling-check" value="1" type="checkbox" class="user-selection">
+                            Excited
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            <input name="feeling-check" value="2" type="checkbox" class="user-selection">
+                            Humbled
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            <input name="feeling-check" value="3" type="checkbox" class="user-selection">
+                            Elated
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            <input name="feeling-check" value="4" type="checkbox" class="user-selection">
+                            Loved
+                          </label>
+                        </li>
+                        <li class="radio">
+                          <label>
+                            <input name="feeling-check" value="5" type="checkbox" class="user-selection">
+                            Enthusiastic
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                    </div>
+
+                  
+                 
+                    <div class="row justify-content-center" style="height: 70px;">
+                      <div class="col-4 text-end"><label for="event-details">
+                        Please describe your positive experience.
+                      </label></div>
+                      <div class="col-5 "><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea></div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                      <div class="col-4 text-end"></div>
+                      <div class="col-5 "></div>
+                      <br>
+                    </div>
+
+                    <button class="button" id="submit" type="submit">Submit</button>
+
+
+                    <div class="row bg-info " ><br><br>
+                     
+                    </div>
+
+            </div>
+          </div>
+
+       
+
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+            integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+            crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+            integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
