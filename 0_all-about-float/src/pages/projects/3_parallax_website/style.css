@@ -4,16 +4,17 @@ body{
     height: auto;
 }
 
-.image-1{
-    background-image:url('https://source.unsplash.com/1600x900/?corporate,building');
-    min-height: 100%;
+.image{
+    min-height: 50vh;
     position: relative;
     opacity: 0.60;
-    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+}
+.image-1{
+    background-image:url('https://source.unsplash.com/1600x900/?corporate,building');
+    min-height: 100%;
 }
 .text{
     border: 2px solid red;
@@ -26,7 +27,25 @@ body{
 
 .section{
     text-align: center;
-    width: 70%;
-    margin: auto;
+    width: 97.12%;
+    height: 30vh;
     background-color: lightgray;
+    margin: auto;
+    padding: 20px;
 }
+.section p{
+    justify-content: center;
+    margin: 20px;
+}
+
+.image-2{
+    background-image:url('https://source.unsplash.com/1600x900/?coding,computer');
+}
+
+.image-3{
+    background-image:url('https://source.unsplash.com/1600x900/?gaming,mobile');
+}
+
+.image-4{
+    background-image:url('https://source.unsplash.com/1600x900/?monk,monestry');
+    min-height: 100%;
