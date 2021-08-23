@@ -1,0 +1,18 @@
+body{
+    background-color: purple;
+}
+.main-container{
+    display: flex;
+    height: auto;
+    width: 90%;
+    justify-content: center ;
+
+    
+    
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+    padding: 0.5rem;
+    /* width: 200px; */
+}
+
