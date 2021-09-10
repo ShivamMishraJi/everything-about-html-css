@@ -1,0 +1,101 @@
+* {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font: arial; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.landing {
+  background-image: url("https://source.unsplash.com/1600x900/?beach,water");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  align-items: center;
+  line-height: 6vh;
+}
+.landing-content {
+  color: #926239;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  padding: 10px;
+  text-align: center;
+}
+p{
+    font-size: 17px;
+}
+.landing-content p {
+    margin-bottom: 15px;
+
+}
+.landing-content a {
+    border: 1px solid #926239;
+    padding: 15px;
+    border-radius: 10px;
+    color: #926239 ;
+}
+.landing-content a:hover {
+    color: #ffff ;
+    background-color: #926239 ;
+
+}
+.section{
+    background-color: #926239;
+    color: #ffff;
+    font-size:17px ;  
+    line-height: 5vh;
+    text-align: center;
+    padding: 10px;
+}
+/* .section p{
+    
+    display: block;
+} */
+.section-1{
+    background-color: #926239;
+    color: #ffff;
+}
+.section-2{
+    background-color: #f4f4f4;
+    color: #926239;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  text-align: center;
+}
+
+.container .container-1 {
+  background-color: #926239;
+  color: #ffff;
+  width: 33.35%;
+}
+
+.container .container-2 {
+  background-color: #ffff;
+  color: #926239;
+  width: 33.35%;
+}
+
+.container-3 {
+  background-color: #926239;
+  color: #ffff;
+  width: 33.35%;
+}
+
+.container .direction-up{
+    background-color: chartreuse;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    position: center;
+    
+}
