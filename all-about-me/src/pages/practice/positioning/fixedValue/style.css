@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color:grey;
+}
+.main-container{
+    width: 95%;
+    height: 90vh;
+    border: 2px solid #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.outside-container{
+    width: 95%;
+    height: 50vh;
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    background-color: orange;
+}
+.inside-container{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffff;
+
+}
+.elements{
+    width: 90%;
+    height: 6vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    background-color: gray;
+    padding: 10px;
+}

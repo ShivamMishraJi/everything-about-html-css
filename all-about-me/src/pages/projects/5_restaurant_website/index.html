@@ -1,36 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>Restaurent Website</title>
+    <title>Restaurant Website!</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-container">
-      <!-- nav -->
-      <nav class="nav nav-pills nav-justified m-5 ">
-        <a class="nav-link bg-warning text-dark font-weight-bold border-0 m-2" aria-current="page" href="#">TACOS</a>
-        <a class="nav-link bg-warning text-dark font-weight-bold border-0 m-2" href="#">BEERS</a>
-        <a class="nav-link bg-warning text-dark font-weight-bold border-0 m-2" href="#">WINES</a>
-        <a class="nav-link bg-warning text-dark font-weight-bold border-0 m-2" href="#">DESSERTS</a>
-        <a class="nav-link bg-warning text-dark font-weight-bold border-0 m-2" href="#">RESERVATIONS</a>
-      </nav>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="box-s box-1">TACOS</div>
+        <div class="box-s box-2">BEERS</div>
+        <div class="box-s box-3">WINES</div>
+        <div class="box-s box-4">DESSERTS</div>
+        <div class="box-s box-5">RESERVATIONS</div>
+      </div>
 
-     
+      <div class="box">
+        <div class="left">
+          <img src="assets/taco's.jpg" alt="Taco's Image" />
+          <div class="text1">Terry's Taco Joint</div>
+          <div class="text2">Pretty Good Tacos!</div>
+        </div>
+
+        <div class="right">
+          <div class="item1">
+            <h1>$1.99</h1>
+            <p>Tacos</p>
+          </div>
+          <div class="item2">
+            <h1>$3.99</h1>
+            <p>Kombucha</p>
+          </div>
+        </div>
+      </div>
+      <!-- content with details -->
+      <div class="label">
+        <div class="col">
+          <img src="assets/taco-icon.png" alt="taco" />
+          <h4>Tacos</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            assumenda.
+          </p>
+        </div>
+
+        <div class="col">
+          <img src="assets/beer-icon.png" alt="" />
+          <h4>Beer</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            assumenda.
+          </p>
+        </div>
+
+        <div class="col">
+          <img src="assets/wine-icon.png" alt="" />
+          <h4>Wine</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            assumenda
+          </p>
+        </div>
+
+        <div class="col">
+          <img src="assets/music-icon.png" alt="" />
+          <h4>Music</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            assumenda
+          </p>
+        </div>
+      </div>
+
+      <!-- featured content -->
+      <div class="mid">
+        <div class="taco">
+          <img src="assets/featured-taco.png" alt=" " />
+        </div>
+        <div class="jazz">
+          <div class="para">
+            <h2>Featured Taco</h2>
+            <br />
+            <p>Slim Profile, easy to hold and loaded with cheese.</p>
+            <p>This is the one you have been waiting for</p>
+            <br />
+            <p id="learn">Learn More →</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- instant -->
+      <div class="tagline">
+        <h2>
+          <span> Instant Grams </span>
+        </h2>
+      </div>
+      <div class="gallery">
+        <div class="gallery-img">
+          <img src="assets/gallery-1.jpg" alt="" />
+          <img src="assets/gallery-2.jpg" alt="" />
+          <img src="assets/gallery-3.jpg" alt="" />
+          <img src="assets/gallery-4.jpg" alt="" />
+          <img src="assets/gallery-5.jpg" alt="" />
+        </div>
+
+        <div class="gallery-img">
+          <img src="assets/gallery-6.jpg" alt="" />
+          <img src="assets/gallery-7.jpg" alt="" />
+          <img src="assets/gallery-8.jpg" alt="" />
+          <img src="assets/gallery-9.jpg" alt="" />
+          <img src="assets/gallery-10.jpg" alt="" />
+        </div>
+      </div>
+
     </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

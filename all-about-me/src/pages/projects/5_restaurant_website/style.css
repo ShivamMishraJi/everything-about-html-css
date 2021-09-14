@@ -1,18 +1,206 @@
-body{
-    background-color: purple;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-.main-container{
-    display: flex;
-    height: auto;
-    width: 90%;
-    justify-content: center ;
 
-    
-    
+body {
+  background-image: linear-gradient(145deg, purple, red, black);
 }
-.nav-pills .nav-link{
-    border-radius: 0;
-    padding: 0.5rem;
-    /* width: 200px; */
+.wrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: space-between;
+    row-gap: 25px;
+    /* column-gap: 30px; */
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.box-s {
+  height: 7vh;
+  width: 18.3%;
+  background-color: #ffc600;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 8px ; /*for taking names in center */
+}
+.box-s:last-child{
+  margin-right: 0px;
+}
+/* box-image */
+.box {
+  display: flex;
+  /* margin-top: 25px; */
+  justify-content: space-between;
+}
+.left {
+  width: 68%;
+  height: 90vh;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  width: 31%;
+  height: 90.5vh;
+  margin-left: 18px;
+}
+
+.item1,
+.item2 {
+  height: 47.5%;
+  width: 100%;
+  background-color: #ffc600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.item1{
+  margin-bottom: 25px;
+}
+.text1 {
+  position: relative;
+  bottom: 65%;
+  left: 100px;
+  font-size: 32px;
+  /* height: 150px; */
+  width: 45%;
+  background-color: #ffc600;
+  display: inline;
+  font-weight: 900;
+  padding: 10px;
+}
+.text2 {
+  position: relative;
+  bottom: 55%;
+  left: -150px;
+  font-size: 18px;
+  /* height: 100px; */
+  background-color: #ffc600;
+  display: inline;
+  font-weight: 900;
+  padding: 2px;
+}
+h1 {
+  font-size: 63px;
+}
+p {
+  font-weight: bold;
+}
+/* <!-- content with details --> */
+.label {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+  margin-right: 20px;
+}
+.col:last-child{
+  margin-right: 0px;
+}
+.col img{
+  width: 70px;
+  height: 70px;
+}
+.col p {
+  padding: 10px;
+}
+
+/* featured content */
+
+.mid {
+  display: flex;
+  height: 400px;
+  background-color: white;
+}
+.taco{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+}
+.taco img{
+  width: 400px;
+  height: 300px;
+}
+.jazz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  line-height: 1.6;
+}
+#learn {
+  font-weight: 200;
+  display: inline;
+  background-color: #ffc600;
+  padding: 10px;
+}
+
+/* instant */
+.tagline h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  position: relative;
+}
+.tagline h2:before {
+  content: "";
+  background: linear-gradient(to left, yellow, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 40%;
+  height: 10px;
+}
+.tagline h2:after {
+  content: "";
+  background: linear-gradient(to right, yellow, transparent);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 40%;
+  height: 10px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.gallery-img {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.gallery-img img {
+  width: 230px;
+  height: 220px;
 }
 

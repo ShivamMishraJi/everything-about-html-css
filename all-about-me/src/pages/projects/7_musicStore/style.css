@@ -1,0 +1,40 @@
+.nav-cont{
+    background-color: #333;
+    height: 10vh;
+    width: 100%;
+    
+}
+.nav-cont ul li{
+    padding: 0px 15px;
+
+}
+.nav-cont a{
+    color: white;
+}
+
+.first-sect-row{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+
+    background-image: url('assets/guitar-background.jpg') ;
+}
+.first-cont{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* justify-content: center; */
+    text-align: center;
+    height: 200px;
+}
+.first-cont h1{
+    font-size: 4rem;
+}
+.first-cont h2{
+    margin: 20px 0px;
+    font-size: 2rem;
+}
+.first-cont p{
+    font-size: 1rem;
+}
