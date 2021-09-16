@@ -1,10 +1,13 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Shivam Mishra</title> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Shivam Mishra</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,194 +15,195 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" type="image/png" href="assets/mern-logo.png"/>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="assets/mern-logo.png" alt="" style="height: 50px; width: 50px;">Shivam Mishra</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-              <!-- dropdown-1 -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Learn Programming
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
-                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
-                  <li><a class="dropdown-item" href="#">React JS</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
-                </ul>
-              </li>
-              <!-- dropdown-2 -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Favorite Blogs
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Personal Blog</a></li>
-                  <li><a class="dropdown-item" href="#">Tech Blogs</a></li>
-                  <li><a class="dropdown-item" href="#">My Blogs</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
-                </ul>
-              </li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/mern-logo.png"
+            alt=""
+            style="height: 50px; width: 50px"
+          />Shivam Mishra</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- dropdown-1 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Learn Programming
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li><a class="dropdown-item" href="#">React JS</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Interview Questions</a>
+                </li>
+              </ul>
+            </li>
+            <!-- dropdown-2 -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Favorite Blogs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Personal Blog</a></li>
+                <li><a class="dropdown-item" href="#">Tech Blogs</a></li>
+                <li><a class="dropdown-item" href="#">My Blogs</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+              </ul>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hire Me!</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-
-
-
-
-    <div class="main">
-        <!-- heading -->
-        <div class=" header clearfix">
-            <div class="box box-1">
-                <p>+91 9022996491</p>
-                <p>shivam199442@gmail.com</p>   
-            </div>
-            <div class="box box-2">
-                <!-- <h3>Aa gaye? Mere code ka tamasha dekhne!!</h3> -->
-            </div>
-            <div class="box box-3">
-                <h3>
-                    <a href="../pages/about-me.html" target="_blank">Shivam Mishra</a>
-                </h3>
-            </div>
-            
-        </div>
-        
-        <!-- navbar -->
-        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar -->
-        <div class="navbar">
-            <a href="index.html"><span class="fa fa-fw fa-home"></span> Home</a>
-            
-            <div class="subnav">
-                <button class="subnav-btn">
-                    Learn Programming <span class="fa fa-caret-down"></span>
-                </button>
-                <div class="subnav-content">
-                    <a href="index.html">HTML5 & CSS3</a>
-                    <a href="index.html">JavaScript</a>
-                    <a href="index.html">React</a>
-                    <a href="index.html">Interview Questions</a>
-                </div>
-            </div>
-
-            <div class="subnav">
-                <button class="subnav-btn">
-                    Fav Blogs <span class="fa fa-caret-down"></span>
-                </button>
-                <div class="subnav-content">
-                    <a href="index.html">Personal Blogs</a>
-                    <a href="index.html">Tech Blogs</a>
-                </div>
-            </div>
-            
-            <a id="hire-me" href="index.html">Hire Me!</a>
-
-        </div>
-
-        <!-- My-Projects -->
-        <div class="my-projects">
-            <!-- project-1-Tribute Page-->
-            <div class=" project project-1">
-                <a href="/0_all-about-float/src/pages/projects/1_Tribute-page/index.html" target="_blank">
-                    <div class="box box-1">
-                        <h2>
-                            Tribute Page
-                        </h2>
-                        <img src="/0_all-about-float/src/pages/projects/1_Tribute-page/assets/Steve_Jobs_Headshot.jpg" alt="Tribute Page Image" style="width:300px; height: 300px; ">
-        
-                    </div>       
-                </a>
-            </div>    
-
-            <!-- project-2-Forms-->
-            <div class="project project-2">
-                <a href="/0_all-about-float/src/pages/projects/2_Webpage-including-form/index.html" target="_blank">
-                    <div class="box box-2">
-                        <h2>
-                            Forms
-                        </h2>
-                        <img src="/0_all-about-float/assets/forms.PNG" alt="Forms Page Image" style="width:300px; height: 300px; ">
-                    </div>
-                </a>
-            </div>    
-
-            <!-- project-3-Parallax-->
-            <div class="project project-3">
-                <a href="/0_all-about-float/src/pages/projects/3_parallax_website/index.html" target="_blank">
-                    <div class="box box-3">
-                        <h2>
-                            Parallax Page
-                        </h2>
-                        <img src="/0_all-about-float/assets/naval.jpg" alt="Parallax Page Image" style="width:300px; height: 300px; ">
-                    </div>                            
-                </a>
-            </div>    
-
-        </div> <!-- My-Projects-Ends -->
-
-        <div class="my-projects">
-            <!-- project-1-Tribute Page-->
-            <div class=" project project-1">
-                <a href="/0_all-about-float/src/pages/projects/1_Tribute-page/index.html" target="_blank">
-                    <div class="boxP boxP-1">
-                        <h2>
-                            Tribute Page
-                        </h2>
-                        <img src="/0_all-about-float/src/pages/projects/1_Tribute-page/assets/Steve_Jobs_Headshot.jpg" alt="Tribute Page Image" style="width:300px; height: 300px; ">
-        
-                    </div>       
-                </a>
-            </div>    
-
-            <!-- project-2-Forms-->
-            <div class="project project-2">
-                <a href="/0_all-about-float/src/pages/projects/2_Webpage-including-form/index.html" target="_blank">
-                    <div class="boxP boxP-2">
-                        <h2>
-                            Forms
-                        </h2>
-                        <img src="/0_all-about-float/assets/forms.PNG" alt="Forms Page Image" style="width:300px; height: 300px; ">
-                    </div>
-                </a>
-            </div>    
-
-            <!-- project-3-Parallax-->
-            <div class="project project-3">
-                <a href="/0_all-about-float/src/pages/projects/3_parallax_website/index.html" target="_blank">
-                    <div class="boxP boxP-3">
-                        <h2>
-                            Parallax Page
-                        </h2>
-                        <img src="/0_all-about-float/assets/naval.jpg" alt="Parallax Page Image" style="width:300px; height: 300px; ">
-                    </div>                            
-                </a>
-            </div>    
-
-        </div> <!-- My-Projects-Ends -->
-        <!-- Footer -->
-        <div class="footer">
-
-            <p>Copyright: Shivam Mishra</p>
+      </div>
+    </nav>
+    <!-- Landing Name -->
+    <div class="container-fluid">
+      <div class="row"></div>
+        <div class="col-md-12">
+          <h1>Hey, I am Shivam</h1>
+          <h3>Full Stack Web Developer</h3>
         </div>
     </div>
+
+    <!-- Projects -->
+    <div class="container-fluid">
+      <div class="row gy-5 project-container-1">
         
+        <!-- columns start -->
+        <div class="col-md-3">
+          <img
+            src="assets/1-tribute.jpg"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/1_Tribute-page/index.html" class="btn btn-primary goToBtn" target="_blank">1 - Go to Tribute Page</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/2-forms.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/2_Webpage-including-form/index.html" class="btn btn-primary goToBtn" target="_blank">2 - Go to Form Page</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/3-paralax.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/3_parallax_website/index.html" class="btn btn-primary goToBtn" target="_blank">3 - Go to Paralax Website</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/4-landing_page.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/4_landing_page/index.html" class="btn btn-primary goToBtn" target="_blank">4 - Go to Landing Page</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/5-restaurent.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/5_restaurant_website/index.html" class="btn btn-primary goToBtn" target="_blank">5 - Go to Restaurent Website</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/6-event.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/6_event_page/index.html" class="btn btn-primary goToBtn" target="_blank">6 - Go to Event Page</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/7-music-store.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/7_musicStore/index.html" class="btn btn-primary goToBtn" target="_blank">7 - Go to Music Store Page</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/8-photoGraphy.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/8_photography/index.html" class="btn btn-primary goToBtn" target="_blank">8 - Go to PhotoGraphy Website</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/3-paralax.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="index.html" class="btn btn-primary goToBtn" target="_blank">9 - Go to Portfolio Website</a>
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="assets/10-JS_doc.PNG"
+            class="card-img-top img-fluid project-img"
+            alt="..."
+          />
+          <a href="/src/projects/10_technical-documentation/index.html" class="btn btn-primary goToBtn" target="_blank">10 - Go to Technical Document Website</a>
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
@@ -207,5 +211,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
