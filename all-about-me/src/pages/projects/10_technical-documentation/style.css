@@ -1,0 +1,32 @@
+*{
+    padding:0px 0px;
+}
+#side-nav-container{
+    /* width: 22%; */
+    padding-right: 0px;
+}
+#side-nav-container ul{
+    padding: 0px 0px;
+}
+#side-nav-container ul li{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#side-nav-container h3{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#side-nav-container hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#side-nav-container .nav-link a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* text-container */
+.text-container h2{
+    margin-top: 15px;
+}

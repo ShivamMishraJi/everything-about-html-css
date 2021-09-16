@@ -1,3 +1,13 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+html{
+    /* overflow: auto; */
+    /* overflow: hidden; */
+}
+body{
+    /* overflow: hidden; */
+} 
+
 .nav-cont{
     background-color: #333;
     height: 10vh;
@@ -12,19 +22,17 @@
     color: white;
 }
 
-.first-sect-row{
-    width: 100%;
-    height: 100vh;
+#section-1{
+    height: 90vh;
     background-size: cover;
-    
-
     background-image: url('assets/guitar-background.jpg') ;
+    /* overflow: hidden; */
 }
+
 .first-cont{
     display: flex;
     flex-direction: column;
     color: white;
-    /* justify-content: center; */
     text-align: center;
     height: 200px;
 }
@@ -36,5 +44,71 @@
     font-size: 2rem;
 }
 .first-cont p{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
+/* section -2 */
+#section-2{
+    height: 150vh;
+    background-color: #252529;
+
+}
+#section-2 a{
+    width: 20%;
+    background-color: #B90415;
+    border: none;
+    margin: 20px auto;
+    padding:  15px 10px;
+}
+#section-2 i{
+    margin-right: 10px;
+    font-size: 60px ;
+}
+#section-2 img{
+    height: 85vh;
+}
+
+/* section-3 */
+#section-3{
+    height: 150vh;
+    background-color: #f4f4f4;
+    /* color: black; */
+
+}
+#section-3 h2{
+margin: 50px 5px;
+
+}
+#section-3 a{
+    background-color: #103063;
+    margin: 15px auto;
+    padding: 15px;
+    border: none;
+    /* width: 20%; */
+}
+#section-3 img{
+    height: 85vh;
+}
+
+#section-card{
+    background-color: gray;
+    height: 80vh;
+    display: flex;
+    /* flex-direction:column; */
+}
+#section-card .section-data{
+    text-align: start;
+}
+/* footer */
+
+#footer-nav{
+    background-color:#252529;
+    color: white;
+
+}
+#footer-nav .color{
+    color: red;
+
+}
+
+
+/*  */
