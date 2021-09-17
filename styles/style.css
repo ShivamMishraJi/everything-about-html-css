@@ -1,11 +1,139 @@
+/*
+color variables
+NavBar - background-color: #391c59;
+Landing page - background-color: #cfc8d7;
+Projects- background-color: #2c1942;
+
+ #2c1942 */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* animation for hire-me */
+@keyframes heartbeat
+{
+    /* The following example will transform the hire-me text when the animation is 0% complete,
+    20% complete, and again when the animation is 100% complete: */
+  0%
+  {
+    transform: scale( .9 );
+  }
 
+  20%
+  {
+    transform: scale( 1 );
+  }
+
+  40%
+  {
+    transform: scale( .9 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .9 );
+  }
+  100%
+  {
+    transform: scale( 1 );
+  }
+}
+/*  */
+
+/* NavBar */
+#navBar{
+    background-color: #391c59;
+    color: white;
+
+}
+#navBar img{
+    color: #cfc8d7;
+
+}
+#navBar a{
+    align-items: center;
+    color: white;
+}
+/* dropdown-menu */
+#dropdown-menu-1,#dropdown-menu-2{
+    background-color:#391c59 ;
+}
+#dropdown-menu-1 li:hover a{
+    /* background-color:#391c59 ; */
+    color: #391c59;
+}
+#dropdown-menu-2 li:hover a{
+    /* background-color:#391c59 ; */
+    color: #391c59;
+}
+
+#navbarSupportedContent{
+    align-items: baseline   ;
+}
+#navBar-items{
+    display: flex;
+    align-items: center;
+}
+
+#hire-me{
+    font-size: 2rem;
+    color: red !important;
+    position: relative;
+    left: 650px;
+    animation: heartbeat 3s infinite;
+}
+
+/* landing-cont */
+.landing-cont{
+    background-color: #cfc8d7;
+    height: 95.3vh;
+    line-height: 20rem;
+}
+#landing-col{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#landing-title{
+    font-size: 4rem;
+    color: #8459bb;
+    margin-bottom: 10px;
+}
+#landing-description{
+    color: #8459bb;
+    margin-bottom: 20px;
+}
+#landing-icon{
+    color: #391c59;
+}
+#landing-icon:hover{
+    color: purple;
+}
+
+/* project-container-1 */
+
+#work-title{
+    margin: 0px 0px ;
+}
+#work-title-text{
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    width: 30%;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+}
 .project-container-1{
     display: flex;
+    background-color: #2c1942;
 }
 .project-container-1 .project-img{
     height: 300px;
@@ -14,5 +142,4 @@
 .project-container-1 .goToBtn{
     display: block;
     border-radius: none;
-    /* color: red; */
 }

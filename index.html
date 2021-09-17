@@ -15,13 +15,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <link rel="icon" type="image/png" href="assets/mern-logo.png"/>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navBar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img
@@ -42,7 +44,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navBar-items">
             <!-- dropdown-1 -->
             <li class="nav-item dropdown">
               <a
@@ -55,7 +57,7 @@
               >
                 Learn Programming
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-menu-1">
                 <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
                 <li><a class="dropdown-item" href="#">JavaScript</a></li>
                 <li><a class="dropdown-item" href="#">React JS</a></li>
@@ -79,7 +81,7 @@
               >
                 Favorite Blogs
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-menu-2" >
                 <li><a class="dropdown-item" href="#">Personal Blog</a></li>
                 <li><a class="dropdown-item" href="#">Tech Blogs</a></li>
                 <li><a class="dropdown-item" href="#">My Blogs</a></li>
@@ -90,8 +92,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hire Me!</a>
+            <li class="nav-item" id="hire-me">
+              <a class="nav-link" href="#" >Hire Me!</a>
             </li>
           </ul>
         </div>
@@ -99,18 +101,27 @@
     </nav>
     <!-- Landing Name -->
     <div class="container-fluid">
-      <div class="row"></div>
-        <div class="col-md-12">
-          <h1>Hey, I am Shivam</h1>
-          <h3>Full Stack Web Developer</h3>
+      <div class="row landing-cont">
+        <div class="col-md-12" id="landing-col">
+          <h1 id="landing-title">Hey, I am Shivam</h1>
+          <h3 id="landing-description">Full Stack Web Developer</h3>
+          <!-- <h1><a href="#html-css-projects" style="text-decoration: none;"><i class="bi bi-arrow-down-circle"></i></a></h1> -->
+          <!-- <button type="button" onclick="location.href='#content-2';" value="Go to content-2">
+            What you should already know
+          </button> -->
+          <h1 id="landing-icon"><i onclick="location.href= '#html-css-projects'" class="bi bi-arrow-down-circle"></i></h1>
         </div>
     </div>
+  </div>
 
     <!-- Projects -->
     <div class="container-fluid">
-      <div class="row gy-5 project-container-1">
+      <div class="row gy-5 project-container-1" id="html-css-projects">
         
         <!-- columns start -->
+        <div class="col-md-12" id="work-title">
+          <h1 id="work-title-text">HTML & CSS Work</h1>
+        </div>
         <div class="col-md-3">
           <img
             src="assets/1-tribute.jpg"
