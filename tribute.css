@@ -1,0 +1,49 @@
+.container{
+    text-align: center;
+    width: 90%;
+    height:auto;
+    background-color: rgb(218, 212, 212);
+    padding: auto ;
+    margin: auto;
+}
+#intro{
+    border: 1px solid gray;
+    display: inline-block;
+    width: 80%;
+}
+
+.container .display-pic{
+    border:1px solid gray;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.container .display-pic img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 350px;
+    margin:10px 10px 10px 10px;
+   
+}
+.container .display-pic .img-dis{
+    width: 50%;
+    border:2px solid gray;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    
+ } 
+ 
+.other-details{
+    width:90% ;
+}
+.other-details h4{
+    text-align: left;
+    padding-left: 120px;
+}
+
+.other-details ul{
+    text-align: left;
+    padding-left: 150px;
+
+}
