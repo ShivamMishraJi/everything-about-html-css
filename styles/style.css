@@ -67,6 +67,16 @@ Projects- background-color: #2c1942;
     /* background-color:#391c59 ; */
     color: #391c59;
 }
+/* first-dropdwn */
+/* .first-dropdwn:hover #dropdown-menu-1{
+    display: block;
+
+}
+.second-dropdwn:hover #dropdown-menu-2{
+    display: block;
+} */
+
+
 #dropdown-menu-2 li:hover a{
     /* background-color:#391c59 ; */
     color: #391c59;
